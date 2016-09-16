@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="TestThreeMessage">
+		<property name="context-root" value="testthree"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.3.BUILD-SNAPSHOT/c025cf506d9f693dda3a7b91227107d0eb886b0/spring-core-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.1.BUILD-SNAPSHOT/8d64637f389ad37e3086f1a69daff7dcc79582c2/spring-boot-starter-data-jpa-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.4.1.BUILD-SNAPSHOT/d1d73a11800d4346778147b81790dab4f6b224de/spring-boot-starter-validation-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.1.BUILD-SNAPSHOT/b7ce9c84f797758ed89354eba80de07179090975/spring-boot-starter-web-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.39/4617fe8dc8f1969ec450984b0b9203bc8b7c8ad5/mysql-connector-java-5.1.39.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.1.BUILD-SNAPSHOT/e582ceb9d8bce64ac2adfc3eadf44507f2e797fc/spring-boot-starter-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.1.BUILD-SNAPSHOT/360e8d03493587a089d40aa16a26579b190888d2/spring-boot-starter-aop-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.1.BUILD-SNAPSHOT/ea702eb0ea29e5253740d4161e84c6e1f3ad1a02/spring-boot-starter-jdbc-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.9.Final/7e06db0b4365876419daafc9b40c9088ba40f64d/hibernate-core-5.0.9.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.9.Final/9eed86e58baf4a3fb9d5156cf03e59051e2bc6c5/hibernate-entitymanager-5.0.9.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.3.BUILD-SNAPSHOT/636d2cfb71a73d2c5ae9064f970c953b45c194d4/spring-data-jpa-1.10.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.3.BUILD-SNAPSHOT/b1c6f60b1c9f679296af2c2123bb9e1d16f927d/spring-aspects-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.6/c7012a59b4f36843489753a2027e169c3b8586f8/jackson-databind-2.7.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.3.BUILD-SNAPSHOT/67f295d552efe14f47d74b29e8762b790de2e93d/spring-web-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.3.BUILD-SNAPSHOT/fdb23ce6450d5af3c1a773fed8c961ed2fcdb93c/spring-webmvc-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.1.BUILD-SNAPSHOT/b51a12de191ab5c5ffb206ca8855d93f612bd77f/spring-boot-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.1.BUILD-SNAPSHOT/2f1cdf48be77de4113afe683cbe5e4b3b99ff41b/spring-boot-autoconfigure-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.1.BUILD-SNAPSHOT/42947aee3856bdb6aac7c932b234143ca81896c/spring-boot-starter-logging-1.4.1.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.3.BUILD-SNAPSHOT/edc7085b0bd34a8ef69fde6d93597a0d4e7562bb/spring-aop-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/db28774f477f07220eac18d5ec9c4e01f48589d7/aspectjweaver-1.8.9.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.5/f165a4c562b3902445e400930ef81f78026eb2d9/tomcat-jdbc-8.5.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.3.BUILD-SNAPSHOT/390152fe48347f18cdb92f6932b18b8928d5c9f1/spring-jdbc-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/3e899258936f94649c777193e1be846387ed54b3/jandex-2.0.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.3.BUILD-SNAPSHOT/c08298eec83c77aa159ff528d98f21cec7be2448/spring-data-commons-1.12.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.3.BUILD-SNAPSHOT/79302c7f07de7784abaa5745e8e483b05e40833a/spring-orm-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.3.BUILD-SNAPSHOT/be2044ef3b046a4a17d71ee8ff162506f30a0fc0/spring-context-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.3.BUILD-SNAPSHOT/16d6554320f688e8de0c849fd070583281c64b64/spring-tx-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.3.BUILD-SNAPSHOT/3c4469ec2d90000284884b398ec6dc558406765d/spring-beans-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/331b564a3a42f002a0004b039c1c430da89062cd/jcl-over-slf4j-1.7.21.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.1/2ad2fd09dcf5607ca96f8ef432096a96986c40a/classmate-1.3.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.6/dabf081f414de0dcd69d47f3f975039f86dd7159/jackson-annotations-2.7.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.6/351fbaa019f27963ed62f5153dfccb8b1235d0a1/jackson-core-2.7.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.3.BUILD-SNAPSHOT/50ea110ea54838c9dbffafee769a5543149b07b0/spring-expression-4.3.3.BUILD-SNAPSHOT.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/2f22c882ffa479d1e9ff4eb0e8e2c29f2a0871ed/jul-to-slf4j-1.7.21.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/b3700d97464d99bdcd42c0177d6e7951c94d75ff/log4j-over-slf4j-1.7.21.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.5/6ff29cf5a4a13b7b972b67189443a5915cbea234/tomcat-juli-8.5.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hung_TaQuang/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/7873092d39ef741575ca91378a6a21c388363ac8/logback-core-1.1.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>
