@@ -1,6 +1,8 @@
 package com.testthree.message.api.controller;
 
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.validation.Valid;
 
@@ -11,6 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
+
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -23,15 +26,16 @@ import com.testthree.message.business.dto.ResponseObject;
 import com.testthree.message.business.services.MessageService;
 import com.testthree.message.model.entities.Message;
 
-
 @Controller
 @RequestMapping(value = "/message")
 public class MessageController {
 
+	private String regex = "^[\\w!#$%&'*+/=?`{|}~^-]+(?:\\.[\\w!#$%&'*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$";
+
+	Pattern pattern = Pattern.compile(regex);
 
 	@Autowired
 	private MessageService messageService;
-	// private List<String> listEmail = new ArrayList<String>();
 
 	@RequestMapping(method = RequestMethod.POST)
 	@ResponseBody
@@ -40,48 +44,31 @@ public class MessageController {
 
 		ResponseObject<Object> response = new ResponseObject<Object>();
 		Message message = new Message();
+		boolean error = false;
 
-		if (result.hasErrors()) {
+		if (StringUtils.isEmpty(request.getRecipient()) == false) {
+			
+			for (String email : request.getRecipient().split(",")) {
+
+				Matcher matcher = pattern.matcher(email);
+				if (matcher.matches() == false) {
+					error = true;
+					break;
+				}
+			}
+		}
+		if (result.hasErrors() || error == true) {
 			response.setError(ErrorInfo.DATA_FORMAT_INVAILD);
 
-		} else {			
-				message = messageService.sendMessage(request);
-				response.setResponseData(message);
+		} else {
+			message = messageService.sendMessage(request);
+			response.setResponseData(message);
 			
 		}
-
 		return new ResponseEntity<Object>(response, new HttpHeaders(), HttpStatus.OK);
-
-		/*
-		 * for (String email : request.getRecipient().split(",")){
-		 * listEmail.add(email); }
-		 * 
-		 * if(listEmail.isEmpty()){ response.setError(ErrorInfo.CONTENT_NULL);
-		 * }else{ //request.setRecipients(listEmail); }
-		 */
-
-		/*
-		 * if(StringUtils.isEmpty(request.getSender())){
-		 * response.setError(ErrorInfo.SENDER_NULL);
-		 * 
-		 * }else if(StringUtils.isEmpty(request.getRecipient())){
-		 * response.setError(ErrorInfo.RECIPIENT_NULL);
-		 * 
-		 * }else if(StringUtils.isEmpty(request.getTitle())){
-		 * response.setError(ErrorInfo.TITLE_NULL);
-		 * 
-		 * }else if(StringUtils.isEmpty(request.getContent())){
-		 * response.setError(ErrorInfo.CONTENT_NULL);
-		 * 
-		 * }else if(result.hasErrors()){
-		 * response.setError(ErrorInfo.BAD_REQUEST);
-		 * 
-		 * }else{ message = messageService.sendMessage(request);
-		 * response.setResponseData(message); }
-		 */
-
 	}
 
+	
 	@RequestMapping(value = "/findByRecipient", method = RequestMethod.GET)
 	@ResponseBody
 	public final ResponseEntity<Object> findByRecipient(
